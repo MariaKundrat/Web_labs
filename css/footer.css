@@ -1,0 +1,105 @@
+.footer__container {
+    width: 1440px;
+    height: 350px;
+    background: #E7ECFF;
+}
+
+.footer__block {
+    display: flex;
+    align-items: center;
+    margin-right: 165px;
+    margin-left: 165px;
+}
+
+.footer__date {
+    margin-top: 37px;
+    width: 83px;
+    height: 24px;
+    color: #939EA4;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 948px;
+}
+
+.footer__logo {
+    margin-top: 42px;
+    width: 79px;
+    height: 38.176px;
+    color: #37447E;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+}
+
+.line {
+    justify-content: center;
+    width: 1110px;
+    height: 1.005px;
+    background: #CDD1D4;
+    border: none;
+    margin-top: 57.64px;
+}
+
+.footer__links {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.footer__links ul {
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.footer__nav-item {
+    margin-right: 60px;
+}
+
+.footer__nav-item a {
+    width: 38px;
+    height: 24.111px;
+    color: #929ECC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer__nav-item:last-child {
+    margin-right: 0;
+}
+
+.footer__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__iot-edition {
+    margin-top: 21.35px;
+    width: 109px;
+    color: #FFF;
+    background-color: #111B47;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    height: 26px;
+    border-radius: 2px;
+}
+
+.footer__social {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__social__link {
+    margin: 25.89px 30px 30.93px 0px;
+}

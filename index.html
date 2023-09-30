@@ -14,23 +14,47 @@
 
 <body>
   <header class="header">
-    <div class="container header__container">
+    <div class="header__container">
       <nav class="header__nav">
-        <div class="header__title">Landie</div>
-        <ul>
-          <li class="header__nav-item">
-            <a class="header__nav-link" href="">Home</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="header__nav-link" href="">About</a>
-          </li>
-          <li class="header__nav-item">
-            <a class="header__nav-link" href="">Pricing</a>
-          </li>
-        </ul>
-        <button class="header__learn-more">Learn more</button>
-        <button class="header__buy-now">Buy now</button>
-      </nav>
+        <div class="header__lan">
+          <div class="header__title">Landie</div>
+          <div class="burger__div">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <div class="menu__box">
+              <ul>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="">Home</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="">About</a>
+                </li>
+                <li class="header__nav-item">
+                  <a class="header__nav-link" href="">Pricing</a>
+                </li>
+              </ul>
+              <label for="menu-toggle" class="close-menu-button">✕</label>
+            </div>
+          </div>
+          <div class="standart__screen">
+            <ul>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="">Home</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="">About</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    <div class="header__but">
+      <button class="header__learn-more">Learn more</button>
+      <button class="header__buy-now">Buy now</button>
+    </div>
+    </nav>
     </div>
   </header>
 
@@ -61,15 +85,15 @@
             </div>
           </div>
         </div>
-      </div>
       <div class="screen__img">
-        <img src="src/images/tablet.png" alt="Tablet">
+        <img src="src/images/tablet2.png" alt="Tablet">
       </div>
+    </div>
     </div>
   </section>
 
   <section class="light">
-    <div class="container light__container">
+    <div class="light__container">
       <div class="light__block">
         <h2 class="light__heading">Light, Fast & Powerful</h2>
         <p class="light__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
@@ -82,7 +106,7 @@
         <div class="light__img">
           <div class="light__img-item">
             <img src="src/images/icon.png" alt="Icon">
-            <h4 class="light__title">Ti tle Goes Here</h4>
+            <h4 class="light__title">Title Goes Here</h4>
             <p class="light__img-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
               Aenean commodo ligula eget dolor.</p>
           </div>
@@ -94,48 +118,46 @@
           </div>
         </div>
       </div>
-      <div class="light__img-right">
-        <img src="src/images/group.png" alt="Girl and phone">
-      </div>
+      <img class="light__img" src="src/images/group.png" alt="Girl and phone">
     </div>
   </section>
 
   <section class="pricing">
-    <div class="container pricing__container">
-      <h2 class="pricing__heading">A Price To Suit Everyone</h2>
+    <div class="pricing__container">
+      <h2 class="pricing__heading">A Price To Suit Everyone<br></h2>
       <p class="pricing__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
         dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
       </p>
-      <div class="pricing__block">
-        <div class="pricing__item">
+      <ul class="pricing__block">
+        <li class="pricing__item">
           <h2 class="pricing__title">FREE</h2>
           <h5 class="pricing__description">UI Kit Demo</h5>
           <p class="pricing__item-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor.</p>
           <p class="pricing__item-paragraph">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-            montes,</p>
+            montes,<br></p>
           <button class="pricing__button">Purchase Now</button>
-        </div>
-        <div class="pricing__item">
+        </li>
+        <li class="pricing__item">
           <h2 class="pricing__title">$40</h2>
           <h5 class="pricing__description">Design Kit</h5>
           <p class="pricing__item-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor.</p>
           <p class="pricing__item-paragraph">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-            montes,</p>
+            montes,<br></p>
           <button class="pricing__button">Purchase Design Kit</button>
-        </div>
-        <div class="pricing__item">
+        </li>
+        <li class="pricing__item">
           <h2 class="pricing__title">$75</h2>
           <h5 class="pricing__description">Design & Code Package</h5>
           <p class="pricing__item-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor.</p>
           <p class="pricing__item-paragraph">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-            montes,</p>
+            montes,<br></p>
           <button class="pricing__button">Purchase Package</button>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </section>
 

@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
 }
 
 .header, .hero, .pricing, .light {
@@ -31,4 +34,41 @@ button {
 ul {
     margin-left: 0;
     padding-left: 0;
+}
+
+@media (min-width: 200px) {
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+
+    .header, .hero, .pricing, .light {
+        margin-left: 0; 
+        padding: 2vh 5vw; 
+    }
+
+    .container {
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        display: block;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    button {
+        border: 0;
+    }
+
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
 }

@@ -23,7 +23,7 @@
 
 .pricing__title {
     margin-top: 88px;
-    width: 350px;
+    max-width: 350px;
     color: #37447E;
     font-size: 36px;
     font-weight: 500;
@@ -33,14 +33,20 @@
 
 .pricing__item {
     margin-right: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pricing__item:hover {
+    transform: scale(1.1);    
 }
 
 .pricing__block {
     display: flex;
+    scroll-behavior: smooth;
 }
 
 .pricing__description {
-    width: 350px;
+    max-width: 350px;
     color: #091133;
     font-size: 22px;
     font-weight: 500;
@@ -51,7 +57,7 @@
 }
 
 .pricing__item-paragraph {
-    width: 350px;
+    max-width: 350px;
     color: #5D6970;
     font-size: 14px;
     font-weight: 400;
@@ -71,4 +77,48 @@
     font-weight: 500;
     line-height: 18px;
     margin-bottom: 217px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.pricing__button:hover {
+    transform: scale(1.1);
+    color:rgb(238, 238, 52);
+    background-color: #536fdf;
+}
+
+.pricing__button:focus {
+    transform: scale(1);
+}
+
+@media (max-width: 768px) {
+    .pricing {
+        display: block;
+        margin-top: 0px;
+    } 
+
+    .pricing__heading {
+        display: inline;
+    }
+
+    .pricing__paragraph {
+        display: inline;
+    }
+
+    .pricing__item-paragraph {
+        display: inline;
+    }
+
+    .pricing__title {
+        margin-top: 20px;
+    }
+
+    .pricing__block {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .pricing__button {
+        margin-bottom: 20px;
+    }
 }
